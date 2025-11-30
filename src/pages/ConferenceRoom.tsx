@@ -13,7 +13,7 @@ import { Video } from 'lucide-react';
 // Configure your backend URL here
 const BACKEND_URL = 'http://localhost:8000'; // Update with your Python backend URL
 
-const Index = () => {
+const ConferenceRoom = () => {
   const { toast } = useToast();
   const [isMuted, setIsMuted] = useState(false);
   const [isVideoOn, setIsVideoOn] = useState(true);
@@ -159,4 +159,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default ConferenceRoom;
